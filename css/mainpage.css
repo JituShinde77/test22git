@@ -1,0 +1,200 @@
+.header{
+  color: #973153;
+  background-color: rgb(185, 214, 185);
+  text-align: center;
+  margin-top: 15px;
+}
+
+.nav{
+  color: rgb(34, 27, 27);
+
+  background-color: rgb(185, 214, 185);
+  width:10%;
+  height:100%;
+  /* max-height: 150%; */
+}
+
+.col-sm-7{
+  
+  width:45%;
+  /* margin-left: 20%; */
+  padding: 10px;
+}
+
+.col-sm-3{
+  width:45%;
+  /* margin-left: 80%; */
+  padding: 10px;
+}
+
+
+
+*:focus{
+outline:1px solid;
+}
+.foodapp{
+  font-family: sans-serif;
+}
+
+
+.welcometxt{
+  color:#FFF;
+  height:auto;
+}
+
+a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+ /* .image-holder {
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 100%;
+} */
+
+img {
+  width: 100%;
+  padding-bottom: 2em;
+  position: center;
+  height: 510px;
+}
+
+/* table {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+}
+
+td, th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+td:first-child {
+    width: 11%;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: #000;
+  background: #fff;
+  opacity: 0.7;
+} */
+
+.divtable
+{
+    display: table;
+    /* width:100%; */
+    background-color:transparent;
+    border:1px ;
+    border-spacing:5px;
+   
+}
+
+.divrow{ 
+   display:table-row;
+   width:100%;
+   border:1px solid transparent;
+}
+
+.divcell
+{
+    float:left;
+    display:table-column;
+    width:170px;
+    background-color:#ffff;
+    border: black;
+    border:1px solid black;
+
+}  */
+
+h2 {
+  color :#FFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* .div{
+  width:100%;
+}
+
+.col-sm-3 {
+  float: left;
+  width:20%;
+  padding: 10px;
+  height: 500px;
+}
+
+.thirdcol p a{
+  color:#FFF;
+  text-decoration: none;
+}
+.col-sm-6 {
+  float: left;
+  width:60%;
+  padding: 10px;
+  height: 500px;
+} */
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+.row{
+  background-image: url(../images/home_image4.jpeg);
+  color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:100%;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+ color: silver;
+ text-decoration: none;
+
+}
+
+
+.footer{
+  text-align: center; 
+  color: #973153;
+  /* padding: 11px 0; */
+  background-color: rgb(25, 34, 25);
+}

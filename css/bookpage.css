@@ -1,0 +1,111 @@
+
+
+h1{
+    color: #973153;
+    background-color: antiquewhite;
+  }
+  
+header{
+  color: #973153;
+  
+}
+  
+   /* .image-holder {
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+  } */
+  
+  /* img {
+    width: 100%;
+    padding-bottom: 2em;
+    position: center;
+    height: 510px;
+  }
+  
+  .table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+  td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#973153;
+  color: white;
+  }
+   */
+  
+   .divtable
+    {
+        display:  table;
+        width:100%;
+        background-color:#eee;
+        border:1px solid  black;
+        border-spacing:5px;
+       
+    }
+
+    .divrow
+    {
+       display:table-row;
+       width:auto;
+       border:1px solid  black;
+    }
+
+    .divcell
+    {
+        float:left;
+        display:table-column;
+        width:200px;
+        background-color:#ccc;
+        text-align: center;
+    } 
+  
+  h2 {
+    color :#973153;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .div{
+    width:100%;
+  }
+  
+  .col-sm-3 {
+    float: left;
+    width:20%;
+    padding: 10px;
+    height: 500px;
+  }
+  .col-sm-6 {
+    float: left;
+    width:60%;
+    padding: 10px;
+    height: 500px;
+  }
+  /* Clear floats after the columns */
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  
+  

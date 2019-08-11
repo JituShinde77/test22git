@@ -1,0 +1,30 @@
+  
+<div  ng-controller="tableCtrl"> 
+        <br>  </br>
+   <div class="w3-padding w3-large w3-text-white ">
+            <!-- <img src="../images/search.png"/> -->
+           <input type="text" placeholder="Search here" ng-model="searchText"> <!-- filter to search inside table-->
+        </div>  
+           <br>  </br>
+           <div class="divtable">
+              <div class="divrow">
+                  <div class="divcell"><b>BookId</b></div>
+                  <div class="divcell"><b>BookName</b></div>
+                  <div class="divcell"><b>Author</b></div>
+              </div>
+              <div class="divrow">
+               <input class="divcell">
+               <input class="divcell", ng-model="newBook.name">
+               <input class="divcell", ng-model="newBook.author">
+               <button type="button" class="btn btn-primary" ng-click="addBook()">Add</button>
+           </div>
+              <div class="divrow" ng-repeat="b in Books | filter: searchText">
+                    <div class="divcell">{{$index }}</div>
+                    <div class="divcell">{{b.name}}</div>
+                    <div class="divcell">{{b.author}}</div>
+              </div>
+           </div>
+            
+</div>
+<!-- <div data-ng-include=" 'right.html' " ></div>  -->
+                

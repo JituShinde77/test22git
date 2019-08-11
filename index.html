@@ -1,0 +1,39 @@
+<html>
+        <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script> 
+        
+    <!-- Receipe Module-->
+    <script src="modules/receipe/index.js"></script>
+    <script src="modules/receipe/receipeController.js"></script>
+
+    <!-- Book Module -->
+    <script src="modules/book/index.js"></script>
+    <script src="modules/book/bookController.js"></script>
+
+    <script src="services/bookServices/index.js"></script>
+    <script src="services/bookServices/bookService.js"></script>
+
+    <link rel="stylesheet" href="css/mainpage.css">
+    <link rel="shortcut icon" href="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src="js/bootstrap.min.js"></script>         -->
+</head>
+<Title>Food Blog</Title>       
+<body ng-app="myApp"> 
+        <div data-ng-include="'common/Views/header.html'"></div>
+        <div class = "row">
+            <div  class="nav" data-ng-include="'common/Views/navbar.html'"></div>
+            <div class="col-sm-7"> 
+                        <ng-view></ng-view>
+            </div>
+            <div data-ng-include=" 'common/Views/right.html' " ></div> 
+        </div>
+            <div class="footer" data-ng-include="'common/Views/footer.html'"></div>
+    </body>
+</html>
